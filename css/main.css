@@ -1,0 +1,20 @@
+body {
+  margin: 3rem;
+  font-family: Palatino;
+  background-color: bisque;
+}
+
+
+#reading-list{
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+#reading-list li {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid blue;
+  padding: 20px;
+}
+
